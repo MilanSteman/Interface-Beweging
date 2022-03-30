@@ -61,6 +61,14 @@ ul img {
     width: 720px;
 }
 
+.icons > li img {
+    transition: .5s;
+}
+
+.icons > li img:hover {
+    border-radius: 4px;
+}
+
 .pan-position {
     transform: translateX(0%);
     left: 0%;

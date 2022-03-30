@@ -61,3 +61,7 @@ setTimeout(() => {
 setTimeout(() => {
     loader.remove();
 }, 4500);
+
+setTimeout(() => {
+    loader.remove();
+}, 4500);
