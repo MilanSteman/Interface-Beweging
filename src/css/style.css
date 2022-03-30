@@ -45,6 +45,7 @@ ul {
     position: relative;
     left: 50%;
     transition: .5s ease-in-out;
+    z-index: -1;
 }
 
 
@@ -52,6 +53,12 @@ ul img {
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
+    cursor: pointer;
+}
+
+.icons {
+    margin: -5rem auto 0;
+    width: 720px;
 }
 
 .pan-position {
@@ -74,6 +81,10 @@ ul img {
     transition: 1.5s;
     opacity: 1;
     background-color: white;
+}
+
+.loader video {
+    transform: scale(.75);
 }
 
 .opacity {
